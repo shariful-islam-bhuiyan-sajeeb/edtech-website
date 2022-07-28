@@ -20,29 +20,29 @@
 
 <body>
     <!-------------------navbar section-1 start---------------->
-    <nav class="navbar navbar-expand-lg  bg-light p-5">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light p-5">
         <div class="container fluid">
            <span class="fw-25"><h1>Pro Edu</h1></span>          
             <div class="collapse navbar-collapse d-flex justify-content-around"
                      id="navbarNavDropdown">
                 <ul class="navbar-nav gap-5">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleDark">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Course</a>
+                        <a class="nav-link active" aria-current="page" href="#course-section">Course</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Deals</a>
+                        <a class="nav-link active" aria-current="page" href="#institute">Deals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Success</a>
+                        <a class="nav-link active" aria-current="page" href="#successfull-student">Success</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active" aria-current="page" href="#feedback">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Register</a>
+                        <a class="nav-link active" aria-current="page" href="#quetion">Register</a>
                     </li>
                 </ul>
             </div>
@@ -141,7 +141,7 @@
 
     <!---------------course card section start----------------->
   <section class="container mt-5 d-flex justify-content-center">
-        <div class="row">
+        <div class="row" id="course-section">
             <div class="card mb-3 col-6 me-5 p-0" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-md-4">
@@ -236,7 +236,7 @@
     <!---------------course card section end-----------------> 
 
     <!---------------Institute Details start---------------->
-    <section class="container ">
+    <section class="container " id="institute">
         <div class="row">
              <div class="col-6">
                 <img class="img-fluid" src="images/working.png" alt="">
@@ -293,7 +293,7 @@
     </section>
     <!---------------Register section end----------------->
     <!----------------successful student card end  -->
-  <section class="container ">
+  <section class="container " id="successfull-student">
         <div class="py-5">
             <h1 class="fw-bold">
                 Meet our successful <br> students.
@@ -336,7 +336,7 @@
   </section>
     <!----------------successful student card end -->
     <!-----------------student feedback start--------------->
- <section class="container my-5 ps-5">
+ <section class="container my-5 ps-5" id="feedback">
         
             <div class=" ">
                 <h2 class="fw-bold mb-3 text-center">Some Student feedback</h2>
@@ -407,7 +407,7 @@
   </section>
     <!-----------------student feedback end------------------->
     <!-- accoording section with somethine quetion start ------>
-    <section class="container py-5">
+    <section class="container py-5" id="quetion">
         <div class=" ">
             <h2 class="fw-bold mb-3 text-center">Frequently Asked Questions</h2>
             <p class="text-center">It is a long established fct that a reader will be distracted by the readble. </p>
@@ -539,11 +539,22 @@
     <!------------company logos added end------------------->
     <!-------------footer section start------------------->
     <footer>
-        <div class="bg-dark">
-            
+        <div class="black-footer">
+            <div class=" text-center py-5">
+                <div class="text-white">
+                    <h2 class="fw-bold">Pro Edu</h2>
+                    <p>Office 41,shidar plaza,Banani</p>
+                    <p>Dhaka,Bangladesh</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <i class="fa-brands footer-color fa-facebook"></i>
+                    <i class="fa-brands footer-color fa-twitter"></i>
+                    <i class="fa-brands footer-color fa-tiktok"></i>
+                </div>
+            </div>
         </div>
     </footer>
-    <!-------------footer section start------------------->
+    <!-------------footer section end------------------->
 
 
 
