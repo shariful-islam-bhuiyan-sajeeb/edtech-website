@@ -1,3 +1,9 @@
 .bgopacity{
     filter: brightness(40%);
 }
+.Max-height{
+    height: 220px;
+}
+.fa-star{
+    color:orange;
+}
